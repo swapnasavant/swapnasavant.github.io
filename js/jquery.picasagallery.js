@@ -79,7 +79,7 @@
                 // append html for this album
                 this.children('div:first').append(
                     "<div class='picasagallery_album'><img src='" +
-                    img_src + '/s' + data.thumbnail_width + ( data.thumbnail_cropped ? '-c' : '' ) + '/' + img_filename +
+                    img_src + 's' + data.thumbnail_width + ( data.thumbnail_cropped ? '-c' : '' ) + '/' + img_filename +
                     "' alt='" + json.feed.entry[i].gphoto$name.$t + "' title='" + album_title +
                     "'/><p><strong>" + album_title + "</strong></p><p>" +
                     json.feed.entry[i].gphoto$numphotos.$t +
@@ -145,11 +145,11 @@
 
                 // add html for this image
                 var html = "<a rel='picasagallery_thumbnail' class='picasagallery_thumbnail' href='" +
-                           img_src + '/s' + screen_width + '/' + img_filename +
+                           img_src + 's' + screen_width + '/' + img_filename +
                            "' title='" +
                            summary +
                            "'><img src='" +
-                           img_src + '/s' + data.thumbnail_width + ( data.thumbnail_cropped ? '-c' : '' ) + '/' + img_filename +
+                           img_src + 's' + data.thumbnail_width + ( data.thumbnail_cropped ? '-c' : '' ) + '/' + img_filename +
                            "' alt='" +
                            summary +
                            "' title='" +
