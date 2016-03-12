@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <title>It's Me!</title>
+    <meta  name="description"  content="National Park Service">
+    <meta  name="viewport"  content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta  name="author"  content="Swapna Savant">
+    <link  rel="stylesheet"  href="css/normalize.css">
+    <link  rel="stylesheet"  href="css/me.css">
+    <link  rel="stylesheet"  href="css/contact.css">
+    <link  rel="stylesheet"  href="css/header-menu.css">
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <script  type="text/javascript"  src="js/aboutme.js"></script>
+    <header  class="header fpage">
+      <div  id="cssmenu">
+	  <!-- Menu header -->
+        <ul  id="menubar">
+          <li  class="active"><a  href="index.html"><span>about</span></a></li>
+          <li  class=""><a  href="about.html"><span>work</span></a></li>
+          <li  class="last"><a  href="contact.html"><span>Contact</span></a></li>
+        </ul>
+		<!-- Menu header : Social Network Links -->
+        <ul  class="social">
+          <li  class="facebook"><a  target="_blank" href="https://www.facebook.com/swapna.savant">facebook</a></li>
+          <li  class="blog"><a  target="_blank" href="http://swapnasavant.blogspot.com/">Blog</a></li>
+          <li  class="resume"><a  target="_blank" href="Resume.pdf">Resume</a></li>
+          <li  class="linkedin"><a  target="_blank"  href="https://www.linkedin.com/in/swapnasavant">Linked IN</a></li>
+        </ul>
+      </div>
+    </header>
+    <div  id="main"  class="row contactme">
+      <div  id="slide1"  class="row sec-page">
+        <div  class="content hike"  role="main">
+          <section  class="section">
+            <h1  class="heading-content"> Contact Me! </h1>
+            <ul  class="list-icon-items clearfix no-margins">
+              <li  class="contactstyle secondary alpha"> <a  href="mailto:swapnasavant@gmail.com">
+                  <i  class="circ large contact-icon contact-standard"> ✉ <i  class="circ pulse"></i>
+                  </i>
+                  <h4  class="secondary">Email</h4>
+                  <p> <span  class="-link">swapnasavant@gmail.com</span>
+                  </p>
+                </a> </li>
+              <li  class="contactstyle secondary"> <i  class="circ large contact-icon contact-standard">
+                  📱 <i  class="circ pulse"></i> </i>
+                <h4  class="secondary">Phone</h4>
+                <p  class="secondary">+1 (980) 225 2800</p>
+              </li>
+              <li  class="contactstyle secondary"> <a target="_blank" href="https://www.linkedin.com/in/swapnasavant">
+                  <i  class="circ large contact-icon contact-standard"> in <i  class="circ pulse"></i>
+                  </i>
+                  <h4  class="secondary">Linked In</h4>
+                  <p> <span  class="link">Connect</span> </p>
+                </a> </li>
+            </ul>
+          </section>
+        </div>
+	</div>
+    </div>
+    <script>
+
+ $(document).ready(function(){
+  setTimeout(function(){
+            $('body').addClass('loaded');
+        }, 3000);
+		// Cache the elements we'll need
+		var menu = $('#cssmenu');
+		var menuList = menu.find('ul:first');
+		var listItems = $("#menubar").find('li').not('#responsive-tab');
+
+		// Create responsive trigger
+		menuList.prepend('<li id="responsive-tab"><a href="#"> </a></li>');
+
+		// Toggle menu visibility
+		menu.on('click', '#responsive-tab', function(){
+			listItems.slideToggle('fast');
+			listItems.addClass('collapsed');
+		});
+	    setTimeout(function(){
+		 $(document.body).addClass("dotted");
+		},1000);
+	});
+
+ </script>
+  </body>
+</html>

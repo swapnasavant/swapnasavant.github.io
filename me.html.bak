@@ -1,0 +1,175 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>It's Me!</title>
+	<meta name="description" content="National Park Service">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="author" content="Swapna Savant">
+	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/style1.css">	
+	<link rel="stylesheet" href="css/me.css">
+	<link rel="stylesheet" href="css/header-menu.css">	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	
+	<!-- Integrate with Picasa -->
+	<link href="fancyBox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="fancyBox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="fancyBox/jquery.fancybox.pack.js" type="text/javascript"></script>
+	<script src="fancyBox/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+	<!-- jQuery Picasa API -->
+	<link href="css/jquery.picasagallery.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="js/jquery.picasagallery.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="header fpage">
+	<div id='cssmenu'>
+		<!-- Menu header -->
+		<ul id="menubar">
+		   <li class='active'><a href='me.html'><span>about</span></a></li>
+		   <li class=''><a href='about.html'><span>work</span></a></li>
+		   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+		</ul>
+		<!-- Menu header : Social Network Links -->
+		<ul class="social">
+			<li class="facebook"><a target="_blank" title="Like me on Facebook" href="https://www.facebook.com/swapna.savant">facebook</a></li>
+			<li class="blog"><a target="_blank" title="Follow me on Twitter" href="http://swapnasavant.blogspot.com/">Blog</a></li>
+			<li class="resume"><a target="_blank" title="See my Dribbble shots" href="Resume.pdf">Resume</a></li>
+			<li class="linkedin"><a target="_blank" title="Connect with me on Linkedin" href="https://www.linkedin.com/in/swapnasavant">Linked IN</a></li>
+		</ul>
+	</div>
+</header>
+<div id="loader-wrapper">
+	<div id="loader"></div>
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+</div>
+ <div id="main" class="row" >
+    <div class="span7 content">		  
+		<section class="entry-content">
+			<h1>  Hello, </h1>
+			<p>I'm Swapna Savant.</p>
+			<p>Working in Oracle for past three years.</p>
+			<p>I am planning to say something smart here, so stay tuned.</p>			 
+		</section> 
+		<section id="aboutme">
+		  <h1 class="skewed">
+			<!-- Clicking on the links will
+			      Slide the existing page in a way 
+				  that user will feel its a new page -->
+			<span><a href="#slide2paint">Painter</a> by passion!</span><br/>
+			<span><a href="#slide2hike">Hiker</a> by choice!</span><br/>
+			<span><a href="about.html">Software Engineer</a> by profession!</span><br/>
+		  </h1>
+		</section>
+	</div> 
+    <div id="sidebar" role="complementary" class="span4">
+	    <figure>
+			<img class="swapna" alt="swapna" src="images/p-trans.php.gif"/>
+	    </figure>	 
+    </div>
+</div>
+<!-- Paiting Sub-Section -->
+<div id="slide2paint" class="row sec-page picasarender" style="display:none">
+    <div class="span7 content">		  
+			<section class="entry-paint">
+			<h1> Some of my paintings..</h1>
+			<br/>
+			<p>
+				Not a great painter but I manage to get my view across the canvas.
+			</p>
+			<br/>
+			<p>
+			   My influences are first and foremost everything I see, feel and experience.
+			</p>
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			<br/>
+			<br/>
+		</section> 
+	</div> 
+      <div id="sidebar" role="complementary" class="span4">
+	   <figure class="painting">
+	          <img id="background_image" class="paint" alt="swapna" src="images/paintings/painting1.png"/>
+	   </figure>	 
+        </div>    
+    
+			<footer id="footer" role="contentinfo" style="opacity: 1; top: 0px;">
+<div class="gradient-white">
+<a class="top" href="#main">back to top</a>
+</div>
+</footer>
+</div>
+<!-- painting Sub-Section -->
+		<div id="slide2hike" class="row sec-page picasarender" style="display:none">
+			 <div class="picasagallery"></div>
+			 <footer id="footer" role="contentinfo" style="opacity: 1; top: 0px;">
+<div class="gradient-white">
+<a class="top" href="#main">back to top</a>
+</div>
+</footer>
+			</div>
+ <script>
+ $(function () {
+    $('a[href*=#]:not([href=#])').click(function () {
+		$(".row").css("display","none");
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                target[0].style.display = "block";
+                return false;
+            }
+        }
+    });
+});
+ $(document).ready(function(){
+  setTimeout(function(){
+            $('body').addClass('loaded');
+        }, 3000);
+		// Cache the elements we'll need
+		var menu = $('#cssmenu');
+		var menuList = menu.find('ul:first');
+		var listItems = $("#menubar").find('li').not('#responsive-tab');
+
+		// Create responsive trigger
+		menuList.prepend('<li id="responsive-tab"><a href="#"> </a></li>');
+
+		// Toggle menu visibility
+		menu.on('click', '#responsive-tab', function(){
+			listItems.slideToggle('fast');
+			listItems.addClass('collapsed');
+		});
+	    setTimeout(function(){
+		 $(document.body).addClass("dotted");
+		},1000);
+	});
+	$(document).ready(function() { 
+		$('.picasagallery').picasagallery({
+		username: 'swapnasavant', // Your Picasa public username
+		hide_albums: ['Profile Photos', 'Scrapbook Photos', 'Instant Upload', '2016-02-17'], // hidden album names
+		link_to_picasa: false, // true to display link to original album on Google Picasa
+		thumbnail_width: '300', // width of album and photo thumbnails
+		thumbnail_cropped: false, // use cropped format (square)
+		title: 'Picasa Photo Gallery', // title shown above album list
+		inline: false, // true to display photos inline instead of using the fancybox plugin
+		}); 
+	});
+	$(document).ready(function(){   
+var arr = [1, 2, 3, 4, 5];
+var cnt=0, bg;
+var $background_image = $('#background_image');
+ 
+	
+	var bgrotater = setInterval(function() {
+		if (cnt==5) cnt=0;
+		//bg = 'url("' + arr[cnt] + '")';
+		bg = 'images/paintings/painting' + arr[cnt] + '.png';
+		cnt++;
+		$background_image.attr("src",bg);
+		$background_image.css({'background-size':'cover', 'transition': '2.5s'});
+	}, 4000);
+});
+ </script>
+</body>
+</html>

@@ -1,0 +1,562 @@
+h1 {
+    font-size: 2em;
+	font-family : "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+h2 {
+    font-size: 1.5em;
+	font-family : "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+h3 {
+    font-size: 1.17em;
+	font-family : "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+	opacity:0.4;
+}
+h4 {
+    font-size: 1em;
+	font-family : "Maiandra GD","proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+h5 {
+    font-size: 0.83em;
+	font-family : "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+	text-indent: 20px;
+}
+h6 {
+    font-size: 0.75em;
+	font-family : "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+body {
+    background: rgba(0, 0, 0, 0) url("../images/body-bg.jpg") repeat scroll 0 0;
+    color: #6e6e6e;
+    font-family: "Open Sans",sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+	height:100%;
+}
+/* mobile phone */
+
+@media only screen and (max-device-width: 480px) {
+  .inlineblock {
+   margin-top:20px;
+ }
+}
+@media only screen and (min-width: 300px) and (max-width: 568px) {
+   .inlineblock {
+   margin-top:20px;
+ }
+
+}
+.master{
+    height: 136px;
+    position: absolute;
+    top: 40px;
+	margin:100px;
+}
+.family{
+    height: 136px;
+    position: absolute;
+    top: 40px;
+	margin:100px;
+}
+.oracle{
+    height: 136px;
+    position: absolute;
+    top: 40px;
+
+}
+.mydiv {  
+	background-color: #ffffff;
+    border: 1px solid #fdd462;
+	height:auto !important;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #fdd462; display: block; padding: 20px; top: 90px;position:absolute;z-index:-1;
+}
+.background-img{
+	position:absolute;
+	opacity : 0.2;
+	height: 50px !important;
+	width:50px;;
+}
+#experience {
+visibility :hidden;
+cursor:pointer;
+}
+/* Background Icon Positioning */
+
+#css3{
+    -webkit-animation: css3 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: css3 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 0;
+	}
+#html5{
+   -webkit-animation: html5 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: html5 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -42px 0;
+}	
+#mysql{
+ -webkit-animation: mysql 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: mysql 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -91px 0;
+}
+#js{
+ -webkit-animation: js 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: js 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 -105px;
+}
+#js1{
+ -webkit-animation: js1 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: js1 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -58px -54px;
+}
+#csharp{
+ -webkit-animation: csharp 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: csharp 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -53px -105px;
+}
+#csharp1{
+ -webkit-animation: csharp1 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: csharp1 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -107px -105px;
+}
+#android{
+ -webkit-animation: android 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: android 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -50px -160px;
+}
+#android1{
+ -webkit-animation: android1 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: android1 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -110px -160px;
+}
+#android2{
+ -webkit-animation: android2 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: android2 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 -160px;
+}
+#oracle{
+-webkit-animation: oracle 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: oracle 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 -53px;
+}
+#jquery{
+-webkit-animation: jquery 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: jquery 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 -218px;
+}
+#jquery1{
+ -webkit-animation: jquery1 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: jquery1 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -100px -54px;
+}
+#jquery2{
+ -webkit-animation: jquery2 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: jquery2 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -160px -160px;
+}
+#angular{
+-webkit-animation: angular 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: angular 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) 0 -267px;
+}
+#xml{
+-webkit-animation: xml 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: xml 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -50px -214px;
+}
+#json{
+-webkit-animation: json 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: json 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg)-150px -266px;
+}
+#java{
+	-webkit-animation: java 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: java 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -98px -214px;
+}
+#xslt{
+	-webkit-animation: xslt 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: xslt 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -149px -214px;
+}
+#weblogic{
+	-webkit-animation: weblogic 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: weblogic 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -114px -317px;
+}
+#ajax{
+	-webkit-animation: ajax 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: ajax 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -5px -313px;
+}
+#tomcat{
+	-webkit-animation: tomcat 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: tomcat 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -60px -313px;
+}
+#amazon{
+	-webkit-animation: amazon 5s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: amazon 1s normal forwards ease-in-out;
+	background: url(../images/logos-sprite.jpg) -163px -318px;
+}
+@keyframes jquery {
+	from {
+        bottom: -10px;
+		left:-30px;
+    }
+    to {
+         bottom: 175px;
+		left:150px;
+    }
+}
+@keyframes jquery1 {
+	from {
+        bottom: -10px;
+		left:-30px;
+    }
+    to {
+         bottom: 300px;
+		left:450px;
+    }
+}
+@keyframes jquery2 {
+	from {
+        top: -10px;
+		left: 130px;
+    }
+    to {
+         top: 150px;
+		left:750px;
+    }
+}
+@keyframes java {
+	from {
+        bottom: -10px;
+		left:-30px;
+    }
+    to {
+         bottom: 200px;
+		left:600;
+    }
+}
+@keyframes xslt {
+	from {
+        bottom: -10px;
+		left:-30px;
+    }
+    to {
+         bottom: 300px;
+		left:550px;
+    }
+}
+@keyframes oracle {
+	from {
+        top: -10px;
+		right:-50px;
+    }
+    to {
+         top: 150px;
+		right: 475px;
+    }
+}
+@keyframes angular {
+	from {
+        top: -10px;
+		left: 130px;
+    }
+    to {
+         top: 100px;
+		left:400px;
+    }
+}
+@keyframes xml {
+	from {
+        bottom: -100px;
+		right:-90px;
+    }
+    to {
+         bottom: 300px;
+		right:260px;
+    }
+}
+@keyframes json {
+	from {
+        bottom: -200px;
+		left:-200px;
+    }
+    to {
+         bottom: 200px;
+		left:300px;
+    }
+}
+@keyframes html5 {
+	from {
+        top: -10px;
+		left:-30px;
+    }
+    to {
+         top: 350px;
+		left:60px;
+    }
+}
+
+@keyframes css3 {
+	from {
+        top: -10px;
+		left:-30px;
+    }
+    to {
+         top: 200px;
+		left:560px;
+    }
+}
+
+@keyframes mysql {
+	from {
+        bottom:-40px;
+		right: 230px;
+    }
+    to {
+         bottom: 450px;
+		right:460px;
+    }
+}
+
+@keyframes js {
+	from {
+        top: -40px;
+		right:-30px;
+    }
+    to {
+         top: 250px;
+		right:60px;
+    }
+}
+@keyframes js1 {
+	from {
+        top: -40px;
+		right:-30px;
+    }
+    to {
+         top: 300px;
+		right:600px;
+    }
+}
+@keyframes csharp {
+	from {
+        top: -140px;
+		right:-130px;
+    }
+    to {
+         top: 150px;
+		right:160px;
+    }
+}
+
+@keyframes csharp1 {
+	from {
+        top: -240px;
+		left:-30px;
+    }
+    to {
+         top: 200px;
+		left:360px;
+    }
+}
+
+@keyframes android {
+	from {
+        top: -100px;
+		right:-200px;
+    }
+    to {
+         top: 300px;
+		right:160px;
+    }
+}
+@keyframes android1 {
+	from {
+        top: -100px;
+		right:-200px;
+    }
+    to {
+         top: 400px;
+		right:560px;
+    }
+}
+@keyframes android2 {
+	from {
+        bottom: -100px;
+		right:-200px;
+    }
+    to {
+         bottom: 500px;
+		right:600px;
+    }
+}
+@keyframes ajax {
+	from {
+        bottom: -10px;
+		left:-75px;
+    }
+    to {
+         bottom: 250px;
+		left:400px;
+    }
+}
+@keyframes tomcat {
+	from {
+        bottom: -10px;
+		left:-130px;
+    }
+    to {
+         bottom: 180px;
+		left:575px;
+    }
+}
+@keyframes amazon {
+	from {
+        bottom: -10px;
+		right:-30px;
+    }
+    to {
+         bottom: 200px;
+		right:650px;
+    }
+}
+@keyframes weblogic {
+	from {
+        bottom: -10px;
+		right:-130px;
+    }
+    to {
+         bottom: 250px;
+		right:550px;
+    }
+}
+.skewed{
+ transform: rotate(-10deg) skew(-10deg, 0deg);
+}
+#aboutme{
+  bottom: 50px;
+    font-family: cursive;
+    font-size: 10px;
+    font-weight: bolder;
+    position: absolute;
+    right: 100px;
+	visibility:hidden;
+}
+.circle{
+  position:absolute;
+  right:300px;
+  top:300px;
+}
+.uncc{
+ background: url(../images/sprite.png) 0 0;
+ float: right;
+ height: 50px !important;
+ width: 68px;
+}
+.fd{
+ background: url(../images/sprite.png) -169px 0;
+ float: right;
+ height: 50px !important;
+ width:92px;
+}
+.work{
+ background: url(../images/sprite.png) -65px 0;
+ float: right;
+ height: 50px !important;
+ width:103px;
+}
+.next{
+  background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll -328px 0;
+    float: right;
+    height: 50px !important;
+    width: 132px;
+}
+.rait{
+ background: url(../images/sprite.png) -260px 0;
+ float: right;
+ height: 65px !important;
+ width:68px;
+}
+.minion{
+    float: right;
+    position: fixed;
+    width: 100%;
+	bottom:0;
+}
+.inlineblock { 
+    display: inline-block;
+    zoom: 1;
+    display*: inline; /* ie hack */
+}
+.about_shadow{
+  filter: drop-shadow(2px 3px 1px black);
+}
+section.projects {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) inset;
+}
+section.projects{
+    background: #fafafa none repeat scroll 0 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 3em 1.5em;
+}
+.header-center {
+    background: #ddd none repeat scroll 0 0;
+    border-bottom: 1px solid #fff;
+    height: 1px;
+    margin-bottom: 30px;
+    position: relative;
+}
+#content-detail {
+    position: relative;
+}
+.clearfix::before, section::before, .row::before, .clearfix::after, section::after, .row::after {
+    content: "";
+    display: table;
+}
+.thumbs {
+    list-style: outside none none;
+    padding: 0;
+    position: relative;
+	text-align:center;
+}
+.thumbs li {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0 2.40385% 2.40385% 0;
+    padding: 0.769231% 0.769231% 0;
+    width: 20%;
+}
+.thumbs li {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    padding: 1.66667% 1.66667% 0;
+     width: 20%;
+}
+.thumbs li {
+    background: #fff none repeat scroll 0 0 padding-box;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+.animate, .top, header nav li a, .thumbs li {
+    transition: all 0.3s ease 0s;
+}
+.thumbs li a {
+    color: #333333;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}

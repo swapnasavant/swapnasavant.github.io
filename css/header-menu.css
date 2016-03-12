@@ -1,0 +1,198 @@
+header{
+	background: black;
+	-webkit-animation: header-bar-animation 1s normal 1s forwards ease-in-out; /* Chrome, Safari, Opera */
+    animation: header-bar-animation 1s normal forwards ease-in-out;
+}
+.fpage{
+	background: black;
+	-webkit-animation: header-bar-animation 6s normal 1s forwards ease-in-out !important; /* Chrome, Safari, Opera */
+    animation: header-bar-animation 1s normal forwards ease-in-out !important;
+}
+#cssmenu {
+  font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 19px;
+    line-height: 70px;
+  text-align: left;
+  text-transform:lowercase;
+     clear: both;
+    margin: 0 auto;
+    max-width: 1040px;
+
+}
+@keyframes header-bar-animation {
+	from {
+        margin-top: -100px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
+.social {
+    display: block;
+    float: right;
+    margin-top: -70px !important;
+}
+.social li {
+    display: inline-block;
+}
+.social .twitter a {
+    background-position: -32px -186px;
+}
+.social li a {
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    text-indent: -9999px;
+    width: 0px;
+}
+li.facebook a{
+    background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll 0 0;
+}
+li.facebook a:hover{
+    background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll 0 -37px !important;
+}
+li.blog a{
+  background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -55px 0;
+}
+li.blog a:hover{
+  background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -55px -37px !important;
+}
+li.resume a{
+background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -118px 0; 
+  margin-left: 14px;
+}
+li.resume a:hover{
+background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -118px -37px !important;
+  margin-left: 14px;
+}
+li.linkedin a{
+background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -165px 0;
+}
+li.linkedin a:hover{
+background: rgba(0, 0, 0, 0) url("../images/social_sprite.gif") no-repeat scroll -165px -37px !important;
+}
+.animate-opacity, .social a, .logo, .contact a {
+    transition: opacity 0.3s ease 0s;
+}
+#cssmenu > ul {
+  width: auto;
+  list-style-type: none;
+ padding: 0;
+  margin: 0;
+  background: black;
+}
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#cssmenu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#cssmenu > ul li.right {
+  float: right;
+}
+#cssmenu > ul li.has-sub {
+  position: relative;
+}
+#cssmenu > ul li.has-sub:hover ul {
+  display: block;
+}
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+}
+#cssmenu > ul li.has-sub ul li {
+  display: block;
+}
+#cssmenu > ul li.has-sub > a {
+  background-image: url('../images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#cssmenu > ul li.has-sub > a.active,
+#cssmenu > ul li.has-sub > a:hover {
+  background: #d9cdad url('../images/caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+#cssmenu > ul li a {
+ color: #fff;
+    display: block;
+    line-height: 50px;
+    padding: 0 1em;
+    text-decoration: none;
+}
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+  background: #d9cdad;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+}
+@media (max-width: 600px) {
+  #cssmenu > ul {
+    width: 100%;
+	padding:0;
+	position: absolute;
+    z-index: 1;
+  }
+  #cssmenu > ul li#responsive-tab {
+    display: block;
+	height: 40px;
+  }
+  #cssmenu > ul li#responsive-tab a {
+    background: url('../images/menu.png') no-repeat;
+	height:40px;
+    background-position: 95% -35%;
+  }
+  #cssmenu > ul li#responsive-tab a:hover {
+    background-color: #d9cdad;
+    background-position: 95% 135%;
+  }
+  #cssmenu > ul li {
+    display: none;
+  }
+  #cssmenu > ul li.right {
+    float: none;
+  }
+  #cssmenu > ul li.has-sub {
+    position: relative;
+  }
+  #cssmenu > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+    background: #ffffff;
+    border: 0 none;
+  }
+  #cssmenu > ul li.has-sub ul li {
+    display: block !important;
+  }
+  #cssmenu > ul li.has-sub ul li a span {
+    display: block;
+    padding-left: 24px;
+  }
+  #cssmenu > ul li.has-sub > a {
+    background-image: none;
+  }
+}
+/* Make sure they show even if hidden in mobile view by JS */
+@media (min-width: 600px) {
+  #cssmenu > ul > li.collapsed {
+    display: inline-block !important;
+    *display: inline;
+    zoom: 1;
+  }
+  #cssmenu > ul ul li.collapsed {
+    display: block !important;
+  }
+}

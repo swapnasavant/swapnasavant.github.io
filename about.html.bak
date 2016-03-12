@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>It's Me!</title>
+	<meta name="description" content="National Park Service">
+	<meta name="author" content="Swapna Savant">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/me.css">	
+	<link rel="stylesheet" href="css/about.css">	
+	<link rel="stylesheet" href="css/base.css">	
+    <link rel="stylesheet" href="css/header-menu.css">	
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+</head>
+<body>
+<header class="header">
+<div id='cssmenu'>
+<ul id="menubar">
+   <li class='active'><a href='me.html'><span>about</span></a></li>
+   <li class=''><a href='about.html'><span>work</span></a></li>
+   <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+</ul>
+<ul class="social">
+					<li class="facebook"><a target="_blank" title="Like me on Facebook" href="https://www.facebook.com/swapna.savant">facebook</a></li>
+					<li class="blog"><a target="_blank" title="Follow me on Twitter" href="http://swapnasavant.blogspot.com/">Blog</a></li>
+					<li class="resume"><a target="_blank" title="See my Dribbble shots" href="Resume.pdf">Resume</a></li>
+					<li class="linkedin"><a target="_blank" title="Connect with me on Linkedin" href="https://www.linkedin.com/in/swapnasavant">Linked IN</a></li>
+</ul>
+</div>
+</header>
+<div height="500px" width="500px">
+    <img id="html5" class="face-img">
+    <img id="css3" class="face-img">
+	<img id="mysql" class="face-img">
+	<img id="js" class="face-img">
+	<img id="csharp" class="face-img">
+	<img id="android" class="face-img">
+	<img id="android1" class="face-img">
+	<img id="android2" class="face-img">
+	<img id="oracle" class="face-img">
+	<img id="jquery" class="face-img">
+	<img id="xml" class="face-img">
+	<img id="angular" class="face-img">
+	<img id="json" class="face-img">
+	<img id="csharp1" class="face-img">
+	<img id="js1" class="face-img">
+	<img id="jquery1" class="face-img">
+	<img id="java" class="face-img">
+	<img id="xslt" class="face-img">
+	<img id="weblogic" class="face-img">
+	<img id="ajax" class="face-img">
+	<img id="amazon" class="face-img">
+	<img id="tomcat" class="face-img">
+	<img id="jquery2" class="face-img">
+</div>
+<div style="opacity:0.9;text-align:center;">
+	<div class="inlineblock">
+	<svg id="experience" class="experience" width="500" height="500">
+		<g transform="translate(138,125)" style="color: red;">
+			<circle class="about_shadow" fill="white" stroke-width="7" stroke="#fdd462" r="110" cy="50" cx="50">
+		</g>
+		<g style="color: red;" transform="translate(166,178)">
+			<ellipse style="stroke: purple; stroke-width: 0; transform: rotate(20deg); fill: #DDDDDD; transform: rotate(20deg);" ry="39" rx="161" cy="80" cx="200">
+		</g>
+ 		<g transform="translate(148,75)" title="bachelors" data-minion="minion_class" style="color: red;">
+			<circle class="about_shadow" fill='#1E6A9F' r="45" stroke="#1E6A9F"></circle><text fill="white" dx="-30">Bachelors</text>
+			<circle fill='#1E6A9F' r="30" stroke="#1E6A9F"></circle><text fill="white" dx="-30">Bachelors</text>
+		</g>
+		
+		<g transform="translate(81,200)" title="masters" data-minion="minion_class" style="color: red;">
+			<circle class="about_shadow" fill='#1E6A9F' r="45" stroke="#1E6A9F"></circle><text fill="white" dx="-25">Master</text>
+			<circle fill='#1E6A9F' r="30" stroke="#1E6A9F"></circle><text fill="white" dx="-25">Master</text>
+		</g>
+		<g transform="translate(287,128)" title="fd" data-minion="minion_single" style="color: red;">
+		 <path id="sss" d="M8,11 L172,191 L155,99 Z" style="fill:black;visibility:hidden" />
+			<circle class="about_shadow" fill='#1E6A9F' r="45" stroke="#1E6A9F"></circle><text fill="white" dx="-41">Family Dollar</text>
+			<circle r="30" fill='#1E6A9F' stroke="#1E6A9F"></circle><text fill="white" dx="-41">Family Dollar</text>
+		</g>
+		<g transform="translate(221,273)" title="oracle" data-minion="minion_class" style="color: red;">
+			<circle class="about_shadow" fill='#1E6A9F' r="45" stroke="#1E6A9F"></circle><text fill="white" dx="-20">Oracle</text>
+			<circle fill='#1E6A9F' r="30" stroke="#1E6A9F"></circle><text fill="white" dx="-20">Oracle</text>
+		</g>
+		<g transform="translate(186,176)" title="projects" data-minion="minion_single" style="color: red;">
+			<circle class="about_shadow" fill='#1E6A9F' r="45" stroke="#1E6A9F"></circle><text fill="white" dx="-20">More...</text>
+			<circle fill='#1E6A9F' r="30" stroke="#1E6A9F"></circle><text fill="white" dx="-20">More...</text>
+		</g>
+	</svg>
+	
+<div class="mydiv" width="525" height="500" data-bachelors="bachelors">
+	<h2>Ramrao Adik Institute Of Technology<img class="rait"></h2>
+	<h3>University of Mumbai,India.</h3>
+	<h3>Bachelors,Computer Science</h3>
+	<h4>PROJECTS:</h4>
+	<h4>Paint Application</h4>
+	<h5>Implemented a basic paint application in JAVA.</h5>
+	<h4>Abstract Syntax Notation</h4>
+	<h5>Abstract Syntax Notation One (ASN.1) is a standard and notation that describes rules</h5>
+	<h5>and structures for representing, encoding, transmitting, and decoding data in</h5>
+	<h5>telecommunications and computer networking.</h5>
+	<h5> Implemented an XML Encoding Rule to design and develope "Message Encode-Decode Engine"</h5>
+	<h5>based on Abstract Syntax Notation One (ASN.1)</h5>
+	<h5><a target="_blank" href="https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One">More Information.</a></h5>
+</div>
+
+<div class="mydiv" width="525" height="500" data-masters="masters">
+	<h2> University Of North Carolina at Charlotte <img class="uncc"></h2>
+	<h3>Masters,Computer Science,3.8/4.0</h3>
+	<h3>2007-2008</h3>
+	<h4>PROJECTS:</h4>
+	<h4>Connecting People(C# and MySQL)</h4>
+	<h5>Implementing an online-dating website.</h5>
+	<h4>Decision Supporting System for McDonalds (Oracle 9i)</h4>
+	<h5>Built a Data Warehouse to provide fast,immediate reports of sales based on historic data.</h5>
+	<h4>Online Blog Troll(C# and MySQL)</h4>
+	<h5>Implemented a prototype on Blog Troll, a new social networking start-up.</h5>
+	<h4>Visualization</h4>
+	<h5>Implemented a visualization technique,VizTree by implementing TreeMap.</h5>	
+</div>
+<div class="mydiv" width="525" height="500" data-fd="fd">
+	<h2>Family Dollar <img class="fd"></h2>
+	<h3>Analyst/Developer</h3>
+	<h3>2008-2010</h3>
+	<h4>RESPONSIBILITIES:</h4>
+	<h5>Gained exposure to XPRESS development through SUN Identity Management Code.</h5>
+	<h5>Reverse Engineering for Sun Identity Manager within the team.</h5>
+	<h5>Gained knowledge of LDAP and Sun IDM Concepts like: User Provisioning workflows,</h5>
+	<h5>forms, process, application integration, ActiveSync, resource adapters, reports and roles.</h5>
+	<h5>Support Sun Identity Manager by independent involvement with customer reporting</h5>
+    <h5>tools and continuous check on the system</h5>
+</div>
+<div class="mydiv" width="525" height="500" data-oracle="oracle">
+	<h2>Oracle <img class="work"></h2>
+	<h3>Senior Applications Engineer</h3>
+	<h3>2011-Present</h3>
+	<h4>RESPONSIBILITIES:</h4>
+	<h5>Developing scalable AJAX Web applications and UI development using ASP.NET, IIS,SQL.</h5>
+	<h5>Developing Web UI using jQuery and its widget classes.</h5>
+	<h5>Strong understanding of JavaScript optimizations, debugging and troubleshooting</h5>
+	<h5>techniques, JavaScript application frameworks.</h5>
+	<h5>Expert level knowledge of HTML, CSS (standards, tricks, browser quirks), XML.</h5>
+	<h5>Backend development using C# and .NET and Database development with T-SQL queries,</h5>
+	<h5>stored procedures, and triggers using SQL Server.</h5>
+    <h5>Build and execute unit test and unit test plans using NUnit and selenium scripts.</h5>
+	<h5>Gained domain knowledge in E-Clinical Solutions</h5>
+	<h5>URL to the Current <a target="_blank" href="http://www.oracle.com/us/products/applications/health-sciences/e-clinical/inform/index.html"> products </a> that I currently work on.</h5>
+</div>
+<div class="mydiv" width="525" height="500" data-projects="projects">
+	<h2>Summary<img class="next"></h2>
+	<h3><br/></h3>
+	<h5>More than 5 years of Software Development experience</h5>  
+	<h5>Full-Stack Software Developer.</h5>
+	<h5>Proficient in Web Services, SOAP, XML, XSL, XSLT, Xpath, DTD,JSON, XML Schema. </h5>
+	<h5>Hands-on in Android App Development.</h5>
+	<h5>Expert level knowledge of HTML5, CSS3</h5>
+	<h5>Expert in JavaScript and Jquery and its widget classes. </h5>
+	<h5>Good with working around browser quirks</h5>
+	<h5>Experience in Database design and development.</h5>
+</div>
+	</div>
+
+
+</div>
+
+<div>
+
+			<section class="dark">
+				<div class="row">
+					<div class="col-12">
+						
+						<div id="content-detail" style="opacity: 1; top: 0px;">
+
+							<!-- Show 3 random portfolio posts -->
+							<div class="header-center" style="text-align:center"><h3>Some of my latest work</h3></div>
+							<ul class="thumbs clearfix" id="thumbs">
+
+																													
+
+								    <li style="opacity: 1;">
+								        <a target="_blank" href="file:///C:/FinalAttempt/index.html">
+								            <img alt="feature-quest-research" class="attachment-post-thumbnail wp-post-image" src="images/nps.jpg">								            <div class="description">
+								            	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+								            	<h4>National Park Service</h4>
+								            	<p>My Version of &amp; National Park Service Site</p>
+								            </div>
+								        </a>
+								    </li>
+
+							 														
+
+								    <li style="opacity: 1;">
+								        <a target="_blank" href="file:///C:/FinalAttempt/snake.html">
+								            <img alt="feature-segments" class="attachment-post-thumbnail wp-post-image" src="images/hungry-snake.png">
+								            <div class="description">
+								            	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+								            	<h4>Hungry Snake</h4>
+								            	<p>Game</p>
+								            </div>
+								        </a>
+								    </li>
+
+							 														
+
+								    <li style="opacity: 1;">
+								        <a target="_blank" href="https://github.com/swapnasavant/Talk2Doctor">
+								            <img alt="feature-freelancer" class="attachment-post-thumbnail wp-post-image" src="images/talk2doctor.png">								       <div class="description">
+								            	<span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+								            	<h4>Talk-2-Doctor</h4>
+								            	<p>Android App &amp; To connect with your doctor</p>
+								            </div>
+								        </a>
+								    </li>
+
+							 								 	
+							 </ul>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+			// Cache the elements we'll need
+		var menu = $('#cssmenu');
+		var menuList = menu.find('ul:first');
+		var listItems = $("#menubar").find('li').not('#responsive-tab');
+
+		// Create responsive trigger
+		menuList.prepend('<li id="responsive-tab"><a href="#"> </a></li>');
+
+		// Toggle menu visibility
+		menu.on('click', '#responsive-tab', function(){
+			listItems.slideToggle('fast');
+			listItems.addClass('collapsed');
+		});
+	    setTimeout(function(){
+		 $(document.body).addClass("dotted");
+		},1000);
+	    setTimeout(function(){
+		  $("#experience").css("visibility","visible");
+		  $("#aboutme").css("visibility","visible");
+		}, 1000);
+	 });
+	 
+	 
+	 (function($) {
+    $(function() {
+        $('.mydiv').css('opacity','0');
+    });
+})(jQuery);
+$('body').on('click', function(event){
+    var popup = $('.mydiv');
+    if($(event.target).not(popup)){
+        popup.css("opacity",0);
+		 popup.css("z-index",-1);
+		// $(".minion_class").css("display","none");
+		// $(".minion_single").css("display","none");
+		// $(".circle").css("visibility","hidden");
+		// $("svg").find("g").each(function(event) {
+		//	var attr_title = $(this).attr("title");
+		//    if (typeof attr_title !== typeof undefined && attr_title !== false) {
+		//		$(this).find("circle").css({ fill : "#1E6A9F"});
+		//	}
+		// });
+    }
+});
+
+		$("svg").find("g").each(function(event) {			
+			$(this).click(function(event){
+			 var popup = $('.mydiv');
+			  popup.css("opacity",0);
+			 popup.css("z-index",-1);
+			// $(".minion_class").css("display","none");
+			// $(".minion_single").css("display","none");
+			// $(".circle").css("visibility","hidden");
+					$("svg").find("g").each(function(event) {
+			var attr_title = $(this).attr("title");
+		   // if (typeof attr_title !== typeof undefined && attr_title !== false) {
+			//	$(this).find("circle").css({ fill : "#1E6A9F"});
+			//}
+		 });
+					var id = $(this).attr("title");
+				    var e = $("[data-"+id+"]");
+					e.css("z-index",0);
+					e.not(':animated').css({'opacity': 1 }).effect("scale", {origin:['middle','center'], from:{width:e.width()/2,height:e.height()/2}, percent: 100, direction: 'both', easing: "easeOutBounce" }, 700);
+					//$("#sss").css("visibility","visible");
+				    event.stopPropagation();
+				//	$(this).find("circle").css({ fill : "white"});
+				//	var minion_class= $(this).attr("data-minion");
+				//	$("."+minion_class).css("display","block");
+				//	$(".circle").css("display","block");
+			});			
+		});
+ 
+	</script>
+	 
+</body>
+</html>

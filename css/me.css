@@ -1,0 +1,456 @@
+body{
+	height: 100%;
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+#main:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#main:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#main {
+    height: 1%;
+    padding: 100px 10px 20px;
+}
+.content {
+    margin-left: 0;
+}
+.row .section-span {
+    width: 57.4468%;
+}
+.row [class*="span"] {
+    float: left;
+    margin-left: 2.12766%;
+}
+.sidebar {
+    float: right;
+}
+.row .sidecontent {
+    width: 31.9149%;
+}
+.row [class*="span"] {
+    float: left;
+    margin-left: 2.12766%;
+}
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("images/glyphicons-halflings.png");
+   background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}
+ul.fa-icons li {
+    display: inline;
+}
+ul.unstyled, ol.unstyled {
+    list-style: none outside none;   
+}
+.icon-rss:hover {
+    background-position: -128px -38px;
+}
+.thumbnail:hover {
+    transform: rotate(-2deg);
+	box-shadow:0 0 8px blue;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+.row {
+    width: 100%;
+}
+.input-xlarge {
+    width: 270px;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.entry-content h1 {
+    font-size: 150px;
+    line-height: 1.1em;
+	font-family : "lust-display-didone",cursive;
+	color: #000000;
+    font-size: 150px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+    width: 100%;
+	clear:both;
+}
+.entry-content p,
+.skewed {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+    opacity: 0.75;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.contactme{
+ margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+
+}
+#aboutme{
+    color: #1e6a9f;
+    font-family: cursive;
+    font-size: 10px;
+    line-height: 20px;
+}
+#aboutme a{
+  font-family: "Architects Daughter";
+}
+@media only screen and (min-width: 300px) and (max-width: 568px) {
+  .dotted {
+  padding :0 !important;
+  }
+  h1{
+   font-size: 2em !important;
+  }
+  .dotted {
+    overflow-x: hidden;
+	}
+}
+/* mobile phone */
+@media only screen and (max-device-width: 480px) {
+ .dotted {
+  padding :0 !important;
+  }
+  h1{
+   font-size: 2em !important;
+  }
+  .dotted {
+    overflow-x: hidden;
+	}
+}
+.dotted {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  }
+/* Footer to Bring the user back to Main View */
+footer {
+    background: #f5f5f5 none repeat scroll 0 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) inset;
+    color: #666666;
+    font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    height: 50px;
+    padding: 40px 5% 0;
+    position: relative;
+    text-align: center;
+	clear:both;
+}
+footer .gradient-white {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: -moz-linear-gradient(center bottom , #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+footer a.top {
+    background: transparent url("../images/back-to-top.png") repeat scroll 0 -217px;
+    bottom: -40px;
+    display: block;
+    height: 90px;
+    left: 50%;
+    margin-left: -59px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 118px;
+}
+.animate, .top, header nav li a, .thumbs li {
+    transition: all 0.3s ease 0s;
+}
+footer a {
+    color: #666666;
+}
+.painting img{
+  height: 200px;
+    padding: 30px;
+    text-align: center;
+}
+/* Rendering Picasa View */
+#fancybox-thumbs ul{
+ left:0 !important;
+}
+.picasagallery div div:nth-child(4){
+ clear:both;
+}
+.picasagallery_header {
+    color: #1e6a9f !important;
+    font-family: "Futura-Medium",Arial,Helvetica,sans-serif !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+}
+.picasarender{
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 1040px;
+}
+.picasagallery{
+margin-bottom: 130px;
+}
+/* Initial Loading of the Page */
+.loaded #loader-wrapper {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-out 1s;
+    visibility: hidden;
+}
+#loader-wrapper {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out 0s;
+}
+
+.loaded #loader-wrapper .curtain.left-side {
+    transform: translateX(-100%);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+}
+.loaded #loader-wrapper .curtain.left-side, .loaded #loader-wrapper .curtain.right-side {
+    background: #fb3 none repeat scroll 0 0;
+}
+#loader-wrapper .curtain.left-side {
+    left: 0;
+}
+#loader-wrapper .curtain {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    transform: translateX(0px);
+    width: 50%;
+    z-index: 99999;
+}
+.loaded #loader-wrapper {
+    visibility: hidden;
+}
+.loaded #loader-wrapper .curtain.right-side {
+    transform: translateX(100%);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+}
+.loaded #loader-wrapper .curtain.left-side, .loaded #loader-wrapper .curtain.right-side {
+    background: #fb3 none repeat scroll 0 0;
+}
+#loader-wrapper .curtain.right-side {
+    right: 0;
+}
+#loader-wrapper .curtain {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    transform: translateX(0px);
+    width: 50%;
+    z-index: 99999;
+}
+#loader {
+  position: absolute;
+  margin: -48px 0 0 -48px;
+  display: block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #eb1777;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  animation-delay:0.2s;
+   z-index: 9999999;
+}
+
+#loader:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  border: 3px solid #3bb4e5;
+  top: 50%;
+  left: 50%;
+  margin: -32px 0 0 -32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  animation-delay:0.4s
+}
+
+#loader:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 3px solid #ccdc25;
+  width: 26px;
+  height: 26px;
+  top: 50%;
+  left: 50%;
+  margin: -16px 0 0 -16px;
+ -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  animation-delay:0.6s
+}
+
+#loader,
+#loader:before,
+#loader:after {
+  animation-name: Slide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  -webkit-animation-name: Slide;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+@keyframes Slide {
+  25% {
+    transform: scale(-1.2, 1.2)
+  }
+  50% {
+    transform: scale(-1, -1)
+  }
+  75% {
+    transform: scale(1.2, -1.2)
+  }
+  100% {transform: scale(1, 1)}
+}
+
+@-webkit-keyframes Slide {
+  25% {
+    -webkit-transform: scale(-1.2, 1.2)
+  }
+  50% {
+    -webkit-transform: scale(-1, -1)
+  }
+  75% {
+    -webkit-transform: scale(1.2, -1.2)
+  }
+}
+/* Painting View */
+.footerholder{
+ padding-top: 700px;
+ }
+figure.painting {
+	position: absolute;
+	display: block;
+  top: 20%;
+}
+figure.painting:before {
+	   content: "";
+    display: block;
+    height: 100%;
+    left: -2%;
+    position: absolute;
+    top: 0;
+    width: 66%;
+    z-index: -1;
+	background-color: #f8f8f8;
+	box-shadow:
+		inset 0px 10px .5em rgba(0,0,0,.25),
+		inset .1em 0px .1em rgba(0,0,0,.1),
+		inset -0.1em 0px .1em rgba(0,0,0,.05),
+		0 .3em .2em #fff;
+	background-image: -moz-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
+	background-image: -webkit-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
+	background-image: -o-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
+	background-image: -ms-radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%);
+	background-image: radial-gradient(50% 50%, circle farthest-corner, #ffffff, #f8f8f8 100%)
+}
+
+figure.painting:after {
+	  content: "";
+    display: block;
+    height: 112%;
+    left: -33px;
+    position: absolute;
+    top: -22px;
+    width: 73%;
+    z-index: -2;
+	background: #f8f8f8;
+	box-shadow:
+		0px 1em 2em -1em rgba(0,0,0,.4),
+		0px 2em 2em -1em rgba(0,0,0,.3),
+		0px 3em 2em -1em rgba(0,0,0,.2),
+		0px 4em 1.5em -1em rgba(0,0,0,.15),
+		0px 2em 4em .5em rgba(0,0,0,.1),
+		inset 0 .2em .1em #fff;
+}
+
+img.paint {
+	background: #fff;
+	position: relative;
+	display: block;
+	width: 50%;
+	height: auto;
+	padding: 6%;
+	box-shadow: inset 0px .3em .1em rgba(0,0,0,.2); 
+}
+#slide2paint {
+    height: 1%;
+    padding: 100px 10px 20px;
+}
+.entry-paint h1 {
+    clear: both;
+    color: #000000;
+    font-family: "lust-display-didone",cursive;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+    width: 100%;
+}
+.entry-paint p{
+ font-family: "Architects Daughter";
+    font-size: 18px;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+    opacity: 0.75;
+}
