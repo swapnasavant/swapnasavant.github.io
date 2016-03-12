@@ -1,0 +1,955 @@
+
+.full-width.header {
+    background: transparent none repeat scroll 0 0;
+    left: 0;
+    top: 0;
+	position:absolute;
+    z-index: 999;
+}
+div#logo {
+   float: right;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 290px;
+    z-index: 99999;
+}
+.menu-toggle img {
+    width: 25px;
+}
+@media only screen and (max-width: 350px) {
+div#logo {
+    float: right;
+    width: 240px;
+}
+}
+nav.menu ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+nav.menu ul li a {
+    color: #000000;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+	cursor:url("../images/ranger1.png"), auto;
+
+}
+#doctors nav.menu ul li:nth-child(1) a {
+    text-decoration: underline;
+}
+#hospitals nav.menu ul li:nth-child(2) a {
+    text-decoration: underline;
+}
+#patients nav.menu ul li:nth-child(3) a {
+    text-decoration: underline;
+}
+#contact-us nav.menu ul li:nth-child(5) a {
+    text-decoration: underline;
+}
+@media only screen and (min-width: 980px) {
+nav.menu {
+    padding-top: 30px;
+}
+.menu ul ul {
+    display: none;
+    padding: 0 0 0 1px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 70%;
+}
+.menu ul ul li {
+    float: none;
+    position: relative;
+}
+.menu ul ul li a {
+    color: #fff;
+    padding: 5px 20px;
+}
+.menu ul li:hover > ul {
+    display: block;
+}
+.menu ul li.dropdown {
+    background: rgba(0, 0, 0, 0) url("../images/menu-down.png") no-repeat scroll 60px 33%;
+    padding-bottom: 10px;
+    width: 80px;
+}
+.menu ul li.dropdown:hover {
+    background: url("../images/body-bg.jpg") repeat scroll left top, rgba(0, 0, 0, 0) url("../images/menu-down-1.png") no-repeat scroll 60px 33%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #101010 !important;
+}
+.menu ul li.dropdown:hover a {
+    color: #6e6e6e;
+    font-size: 12px;
+}
+.menu ul li.dropdown:hover > a {
+    background: rgba(0, 0, 0, 0) url("../images/menu-down-1.png") no-repeat scroll 60px 50%;
+    color: #101010;
+    font-size: 12px;
+}
+.menu ul li.dropdown a {
+    padding-right: 25px;
+}
+.menu ul {
+    display: inline-table;
+    list-style: outside none none;
+    padding: 15px 30px;
+    position: relative;
+}
+.menu ul::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a:hover {
+    text-decoration: none;
+}
+.menu ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dd-bg {
+    background: rgba(0, 0, 0, 0) url("../images/body-bg.jpg") repeat scroll left top;
+    border-radius: 5px 0 5px 5px;
+}
+}
+@media only screen and (max-width: 980px) {
+nav.menu {
+    background: #fff none repeat scroll 0 0;
+    clear: both;
+    display: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: -10px;
+    opacity: 0.9;
+    overflow: auto;
+    width: 47%;
+}
+div#menu-dd-icon {
+    float: right;
+    height: 51px;
+    margin-right: 10px;
+    margin-top: 10px;
+    min-width: 35px;
+}
+div#menu-dd-icon a {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-top: 12px;
+    text-align: right;
+}
+nav.menu ul li a {
+    color: #101010;
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 5px 10px;
+}
+nav.menu ul li.dropdown > a {
+    display: none;
+}
+.pseudoborder{
+display:none;
+}
+#lower_res{
+   display: inline-block !important;
+    font-size: 15px;
+    height: 250px;
+    line-height: 30px;
+}
+#sidebar{
+ display:none;
+}
+.social_me{
+ display:none;
+}
+#about_sidebar{
+ float:left !important;
+ width:100% !important;
+ font-size:1em;
+}
+div#logo {
+ display:none;
+}
+#weather{
+ float:left;
+ margin:-56px auto !important;
+ width:auto !important;
+}
+#weather h2{
+ font-size:2em !important;
+}
+.winter_container{
+  margin: 0 auto;
+  padding: 0 !important;
+  width: auto !important;
+	}
+.thumb{
+padding: 0 !important;
+}
+.img_content{
+ font-size: 8px !important;
+ width: 120px !important;
+ line-height: 11px !important;
+}
+}
+
+#sidebar {
+    float: right;
+	padding:20px;
+	background:black;
+}
+#background_image{
+ max-height:100%;
+ max-width:100%;
+}
+.content{
+   float:left;
+   padding:20px;
+   width:50%;
+}
+.entry-content{
+ text-align:center;
+}
+#tags{
+  width:80%
+}
+.go{
+ cursor:pointer;
+}
+footer {
+    background: #f5f5f5 none repeat scroll 0 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) inset;
+    clear: both;
+    color: #666666;
+    font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    height: 50px;
+    padding: 40px 5% 0;
+    position: relative;
+    text-align: center;
+}
+footer .gradient-white {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: -moz-linear-gradient(center bottom , #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+footer a.top {
+    background: transparent url("../images/back-to-top.png") repeat scroll 0 -217px;
+    bottom: -40px;
+    display: block;
+    height: 90px;
+    left: 50%;
+    margin-left: -59px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 118px;
+}
+.animate, .top, header nav li a, .thumbs li {
+    transition: all 0.3s ease 0s;
+}
+footer a {
+    color: #666666;
+}
+#main{
+  height:45%;
+}
+.aboutus{
+  background-color : #666666;
+  border-top: 1px solid #cccccc;
+  height:100%;
+}
+.about-content{
+   float: left;
+   padding-top:0px;
+	 padding-left: 10px;
+    width: 40%;
+    height: 250px;
+    line-height: 30px;
+ }
+ .published{
+  color: #ca9a71;
+    font-size: 2em;
+    line-height: 45px;
+ }
+ .container{
+   top: 45%;
+    width: 80%;
+}
+#test1 {
+    background-color: #FFFFCC;
+    float: left;
+    height: 140px;
+    margin: auto;
+    width: 29%;
+	color: #666666;
+}
+
+#test2 {
+    background-color:#666666;
+    width:4%;
+    height:40px;
+    margin:auto;
+    float:left;
+}
+
+#test3 {
+    background-color: #FFFFCC;
+    float: left;
+    height: 140px;
+    margin: auto;
+       width: 29%;
+	   color: #666666;
+}
+
+#test4 {
+    background-color:#666666;
+    width:4%;
+    height:40px;
+    margin:auto;
+    float:left;
+}
+#test5{
+     background-color: #FFFFCC;
+    float: left;
+    height: 140px;
+    margin: auto;
+	color: #666666;
+       width: 29%;
+}
+#test6 {
+    background-color: #666666;
+	 border-right: 1px solid black;
+    float: left;
+    height: 40px;
+    margin: auto;
+   width: 16%;
+}
+
+#test7 {
+    background-color: #666666;
+    border-right: 1px solid black;
+    float: left;
+    height: 40px;
+    margin: auto;
+      width: 31%;
+}
+
+#test8 {
+    background-color: #666666;
+	 border-right: 1px solid black;
+    float: left;
+    height: 40px;
+    margin: auto;
+       width: 33%;
+}
+#test9 {
+    background-color:#666666;
+    width:10%;
+    height:40px;
+    margin:auto;
+    float:left;
+}
+.container-content{
+ display:inline-block;
+ font-size:14px;
+ margin-top:40px;
+ text-align:center;
+ line-height:21px;
+}
+#lower_res{
+  display:none;
+}
+#about_sidebar{
+ color: #ffffff;
+    float: right;
+    width: 50%;
+	height:100%;
+}
+.published.start {
+	width: 0px;
+	background: #aae0aa;
+	-webkit-animation: eighty 2s ease-out forwards;
+	   -moz-animation: eighty 2s ease-out forwards;
+	    -ms-animation: eighty 2s ease-out forwards;
+	     -o-animation: eighty 2s ease-out forwards;
+	        animation: eighty 2s ease-out forwards;
+}
+
+@-moz-keyframes eighty {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes eighty {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 80%;
+	}
+}
+/*
+  Docs at http://http://simpleweatherjs.com
+
+  Look inspired by http://www.degreees.com/
+  Used for demo purposes.
+
+  Weather icon font from http://fonts.artill.de/collection/artill-weather-icons
+
+  DO NOT hotlink the assets/font included in this demo. If you wish to use the same font icon then download it to your local assets at the link above. If you use the links below odds are at some point they will be removed and your version will break.
+*/
+
+@font-face {
+    font-family: 'weather';
+    src: url('file:///C:/NPS/css/artill_clean_icons-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#weather {
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+i {
+  color: #fff;
+  font-family: weather;
+  font-size: 150px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #364B33;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+#weather h2 i{
+ color: #364B33;
+}
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #F7F2EE;
+  color: #364B33;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+ul.sticky_notes{ list-style:none; }
+ul.sticky_notes li{
+	width:200px;
+	  color: #364B33;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	float:left;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);  
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);  
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7); 
+  -webkit-transform:rotate(-6deg);  
+  -o-transform:rotate(-6deg);  
+  -moz-transform:rotate(-6deg);  
+  font-family: 'Short Stack', cursive;
+}
+ul.sticky_notes li:nth-child(odd){  
+  -o-transform:rotate(4deg);  
+  -webkit-transform:rotate(4deg);  
+  -moz-transform:rotate(4deg);  
+  position:relative;  
+  top:5px;  
+}  
+ul.sticky_notes li:nth-child(2n){  
+  -o-transform:rotate(-3deg);  
+  -webkit-transform:rotate(-3deg);  
+  -moz-transform:rotate(-3deg);  
+  position:relative;  
+  top:-5px;  
+}  
+ul.sticky_notes li:nth-child(6n){  
+  -o-transform:rotate(5deg);  
+  -webkit-transform:rotate(5deg);  
+  -moz-transform:rotate(5deg);  
+  position:relative;  
+  top:-10px;  
+}
+.yellow{ background:#ffc; }
+.green{	background:#cfc; }
+.blue { background:#ccf; }
+.red{ background:#f24a4a; }
+.purple{ background:#eaafe3; }
+.orange{ background:#f28e50; }
+ul.sticky_notes li:hover{   
+  -webkit-transform: scale(1.5);  
+  -moz-transform: scale(1.5);  
+  -o-transform: scale(1.5);  
+  position:relative;  
+  z-index:10;  
+  -moz-box-shadow:0px 10px 7px rgba(0,0,0,.7);  
+  -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,.7);  
+  box-shadow:0px 10px 7px rgba(0,0,0,.7); 
+  -webkit-transition: all 300ms ease-in 50ms; /* property duration timing-function delay */
+    -moz-transition: all 300ms ease-in 50ms;
+    -o-transition: all 300ms ease-in 50ms;
+    transition: all 300ms ease-in 50ms;
+    cursor:pointer;
+}
+.subheading{
+	font-family:"Short Stack",cursive;
+	font-weight: 100;
+}
+.content_para{
+color:#FF9900;
+ font-size: 1.3em;
+font-weight: 100;
+}
+.snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index:0;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+ .thumb
+	{
+	  float :left;
+	  position:relative;
+width: 23%;
+ padding: 50px;
+     margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+ height: 140px;
+	}
+    
+	.thumbnail img{
+    /* ... */
+    width:70px;
+    height:50px;
+}  
+    .clearfix:after
+	{
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: table;
+    height: 0;
+    clear: both;
+	}
+   
+/*     .thumb img:hover
+	{
+	 box-shadow: 0 10px 7px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.5);
+    transition: all 300ms ease-in 50ms;
+    z-index: 10;
+	} */
+    .image_container
+	{
+	  width:100%;
+	  margin:0 auto;
+	}
+	.thumb_decoration{
+	border: 21px solid white;
+	}
+	.thumb_noshow{
+	  display:none;	
+	}
+	.img_content{
+	  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.7);
+	  font-size:10px;
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.5);
+    transition: all 300ms ease-in 50ms;
+    z-index: 10;
+	background:white;
+	    height: 150px;
+    width: 230px;
+	font-size:10px;
+	   line-height: 17px;
+    padding: 20px;
+	}
+.container-sun{
+  text-align:center;
+}
+/* the svg element */
+.svg-sun{
+  width:1401px;
+  height:300px;
+
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin:50% 50%;
+
+-webkit-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+-moz-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+-o-animation:spin 25s linear infinite, sun-glow 3s 0s linear infinite;
+-ms-animation: spin 25s linear infinite, sun-glow 3s 0s ease-in-out infinite;
+animation: spin 25s linear infinite,sun-glow 3s 0s linear infinite;
+
+}
+/* the circle element in the svg itself */
+#sun{
+ stroke-width:18;
+  stroke-dasharray:2;
+  stroke-dashoffset:2;
+}
+/* animation for the sun glowing effect */
+@-webkit-keyframes sun-glow { 
+	0% { fill: #f1c40f; stroke:#f1c40f;}
+	50% { fill: #e67e22; stroke:#e67e22;}
+	100% { fill: #f1c40f; stroke:#f1c40f;}
+}
+@-moz-keyframes sun-glow { 
+	0% { fill: #f1c40f; stroke:#f1c40f;}
+	50% { fill: #e67e22; stroke:#e67e22;}
+	100% { fill: #f1c40f; stroke:#f1c40f;}
+}
+@-o-keyframes sun-glow { 
+	0% { fill: #f1c40f; stroke:#f1c40f;}
+	50% { fill: #e67e22; stroke:#e67e22;}
+	100% { fill: #f1c40f; stroke:#f1c40f;}
+}
+@-ms-keyframes sun-glow { 
+	0% { fill: #f1c40f; stroke:#f1c40f;}
+	50% { fill: #e67e22; stroke:#e67e22;}
+	100% { fill: #f1c40f; stroke:#f1c40f;}
+}
+@keyframes sun-glow { 
+	0% { fill: #f1c40f; stroke:#f1c40f;}
+	50% { fill: #e67e22; stroke:#e67e22;}
+	100% { fill: #f1c40f; stroke:#f1c40f;}
+}
+
+/* start spin animation */
+@-webkit-keyframes spin{
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spin{
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-o-keyframes spin{
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+@-ms-keyframes spin{
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+@keyframes spin{
+	100% {
+		transform: rotate(360deg);
+	}
+}
+#park_adventure{
+  display:none;
+}
+.sky {
+  animation: 10s linear 0s normal none infinite running snow;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("http://montanaflynn.me/lab/css-clouds/images/cloud_one.png"), url("http://montanaflynn.me/lab/css-clouds/images/cloud_two.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    font-family: Androgyne;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.clouds_one {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 50s linear infinite;
+  -moz-animation: cloud_one 50s linear infinite;
+  -o-animation: cloud_one 50s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+}
+
+.clouds_two {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 75s linear infinite;
+  -moz-animation: cloud_two 75s linear infinite;
+  -o-animation: cloud_two 75s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+}
+
+
+@-webkit-keyframes sky_background {
+  0% {
+    background: #007fd5;
+    color: #007fd5
+  }
+  50% {
+    background: #000;
+    color: #a3d9ff
+  }
+  100% {
+    background: #007fd5;
+    color: #007fd5
+  }
+}
+
+@-webkit-keyframes moon {
+  0% {
+    opacity: 0;
+    left: -200% -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    -moz-transform: scale(1);
+    left: 0% bottom: 250px;
+    -webkit-transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    bottom: 500px;
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+}
+
+@-webkit-keyframes cloud_one {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
+
+@-webkit-keyframes cloud_two {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
+
+@-webkit-keyframes cloud_three {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
+
+@-moz-keyframes sky_background {
+  0% {
+    background: #007fd5;
+    color: #007fd5
+  }
+  50% {
+    background: #000;
+    color: #a3d9ff
+  }
+  100% {
+    background: #007fd5;
+    color: #007fd5
+  }
+}
+
+
+@-moz-keyframes cloud_one {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
+
+@-moz-keyframes cloud_two {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
+.fall {
+  animation: 10s linear 0s normal none infinite running snow;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/leaf.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/leaf2.png"),url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/leaf3.png"),
+	url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/leaf4.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    font-family: Androgyne;
+    height: 100%;
+    position: absolute;
+    width: 8%;
+    z-index: 0;
+}
+.fall_right{
+right:0;
+}
+.fall_left{
+    left: 0;
+}
+.fall_comment{
+  margin: 0 auto;
+    width: 50%;
+}
+.thumb_fall{
+ height: 140px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    padding: 50px;
+    position: relative;
+	}
+	.winter_container{
+	  margin: 0 auto;
+    padding: 50px;
+    width: 1920px;
+	}
+

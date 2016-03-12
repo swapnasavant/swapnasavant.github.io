@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>National Park Service</title>
+	<meta name="description" content="National Park Service">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<meta name="author" content="Swapna Savant">
+	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/base.css">	
+	<link rel="stylesheet" href="css/menu.css">	
+ 	<link rel="stylesheet" href="css/home.css">	
+	  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	  <link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.simpleWeather.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	
+</head>
+
+<body>
+     <script type="text/javascript" src="js/scripts.js"></script>
+	 
+	 <!--Header for Logo & Menu -->
+	<header class="full-width header">
+<div id="logo"><a href="index.html"><img src="images/nps1.gif" alt="" /></a></div>
+<!-- TODO 
+	<section class="centerd">
+		<div id="menu-dd-icon" style="display:none;"><a href="" class="menu-toggle"><img src="images/menu-line.png" alt="" /></a>
+		</div>
+					
+		<nav class="menu">
+	    	<ul>
+	    		<li><a href="index.html">For Teachers</a></li>
+	    		<li><a href="index.html">For Kids</a></li>
+	    		<li><a href="index.html">About Park</a></li>
+	    		<li class="hide"><a href="index.html">About Me!</a></li>
+	    		<li><a href="test.html">About Me!</a></li>
+	    		<li class="dropdown hide"><a href="#">More</a>
+	    			<ul class="dd-bg">
+	    	    		<li><a href="index.html">FAQ's</a></li>
+	    		    	<li><a href="#">Blog</a></li>
+	    		    	<li><a href="#">News</a></li>
+	    		    </ul>
+	    		</li>
+	    	</ul>
+	    </nav>
+	</section> -->
+
+</header>
+	<!--Section for First Slider -->	
+	<section name="top" class="full-width section-1 slider-1">
+			
+			<div id="bxslider">
+				<div>
+				  	
+					<div class="s-container slide1">
+						<div id="adventure" class="s-container-inner adventure">
+					
+						<h1 class="s-heading">
+							<div style="display: inline-block; width: 50%;">
+									Plan Your Adventure
+							</div>
+						</h1>	
+											
+						<p class="s-desc">Ready to head out? Select a park from the drop-down or choose a state from the map below. </p>
+
+						<a id="adventure_btn" href="#park_adventure" style="display:none" class="s-btn btn popup">What's Hot!</a>
+						<div id="weather"></div>
+						</div>
+					</div><!-- End Slide Container -->
+				  	
+					  	
+				</div><!--End Slide-->
+				<div>
+				  	
+					<div class="s-container slide2">
+						<div id="involved"class="s-container-inner">
+						
+						<!-- <img class="s-img" src="images/tree_root.jpg" /> -->
+						
+						<h1 class="s-heading">Get Involved</h1>
+						
+						<p class="s-desc">...and Get Inspired! Inspire people to plan another trip, to tell their friends, and often, to ask how they can help. We love that!</p>
+						
+						
+						</div>
+					</div><!-- End Slide Container -->
+				  	
+					  	
+				</div><!--End Slide-->
+				
+				<div>
+				  	
+					<div class="s-container slide3">
+						<div id="history" class="s-container-inner">
+						
+						<!-- <img class="s-img" src="images/trees.jpg" /> -->
+						
+						<h1 class="s-heading">Discover History</h1>
+																	
+						<p class="s-desc">Discover History and Historic Preservation in the National Park Service.</p>
+						
+						
+						</div>
+					</div><!-- End Slide Container -->
+				  	
+					  	
+				</div><!--End Slide-->
+
+
+			
+			</div><!--End Home Slider 1 -->
+				
+	</section>
+<div id="main" class="row">
+  <div class="span7 content" role="main">
+     <section class="entry-content">
+		<div class="ui-widget">
+  <label for="tags">Find your park: </label>
+  <input id="tags">
+</div>
+	 </section>
+  
+  </div>
+  <div id="sidebar" class="span4" role="complementary">
+		<figure>
+			<img id="background_image" class="active" src="images/photogallery/pic_thumb1.jpg" alt="bcgimages" height="300px" width="300px">		
+		</figure>
+  </div>
+</div>
+<div id="park_adventure" class="aboutus" name="park_adventure"></div>
+<div id="yosemite_summer" style="display:none">
+	<div class="sky">
+		<div class="clouds_one"></div>
+		<div class="clouds_two"></div>
+				<svg class="svg-sun" version="1.1" preserveAspectRatio="xMinYMin meet">
+		<circle cx="50" cy="50" r="35" id="sun"></circle>
+		</svg>
+	</div>
+<div class="winter_container clearfix">
+	<div class="image_container clearfix">
+		<div class="thumb">
+			<img class="thumb_decoration" src="images/yosemite_summer/biking.jpg"  alt='image 1'/>
+			<h3 style="display:none">Over 12 miles of paved bike paths are available in Yosemite Valley. In addition, bicyclists can ride on regular roads (if they obey traffic laws). Helmets are required by law for children under 18 years of age.</h3>
+		</div>
+		<div class="thumb">
+		 <img class="thumb_decoration" src="images/yosemite_summer/fishing.jpg"  alt='image 1' />
+		 <h3 style="display:none">For anglers of every stripe, Yosemite offers great sport and fly fishing. Boasting 58 permanent streams with a combined length of 770 miles, plus a multitude of mountain lakes and excellent rainbow and brown trout keepers, Yosemite offers world-class fishing in a one-of-a-kind setting.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yosemite_summer/hiking.jpg"  alt='image 1' />
+		 <h3 style="display:none">One of the best ways to experience Yosemite is by taking a hike.Most recommended are : Yosemite Valley, Glacier Point Road,Wawona and Mariposa Grove of Giant Sequoias,Hetch Hetchy,White Wolf, Tuolumne Meadows</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yosemite_summer/rafting.jpg"  alt='image 1' />
+		 <h3 style="display:none">The length of the Yosemite rafting season changes from year to year and depends on river depth, water temperature and climate. As of mid-July, the river level is too low for the raft rental operation to continue for the summer season.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yosemite_summer/riding.jpg"  alt='image 1' />
+		 <h3 style="display:none">Guided mule rides and both pack and saddle trips are available through DNC Parks & Resorts at Yosemite from spring through fall.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yosemite_summer/rock_climbing.jpg"  alt='image 1' />
+		 <h3 style="display:none">Yosemite is one of the world's greatest climbing areas. Climbers here can enjoy an endless variety of challenges--from the sustained crack climbs of the Merced River Canyon to pinching crystals on sun-drenched Tuolumne Meadows domes to multi-day aid climbs on the big walls of the Valley.</h3>
+		</div>
+	</div>
+	</div>
+</div>
+<div id="yosemite_winter" style="display:none">
+	<div id="weather_wise" class="snow"></div>
+	<div class="winter_container clearfix">
+	<div class="image_container clearfix">
+    <div class="thumb">
+	    <img class="thumb_decoration" src="images/yosemite_winter/snowtubing.jpg"  alt='image 1'/>
+		<h3 style="display:none">Snow tubing is a fun and favorite activity to share with your family.  The Badger Pass® - Yosemite Snow Tubing area is designed for younger kids who want the excitement of sliding over snow. Kids of all ages are encouraged to join in.</h3>
+	</div>
+    <div class="thumb">
+	 <img class="thumb_decoration" src="images/yosemite_winter/skiing.jpg"  alt='image 1' />
+	 <h3 style="display:none">Enjoy nearly 350 miles of trails and roads in the park, beginning at Badger Pass, and over 90 miles of marked trails and 25 miles of machine-groomed track. Cross-country track and skating lanes are groomed from Badger Pass to Glacier Point - a 21-mile round trip - and a three-kilometer track is set to the scenic Old Badger Summit.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yosemite_winter/snowshoe.jpg"  alt='image 1' />
+	 <h3 style="display:none">snowshoeing is a popular sport affording great outdoor fun, low impact exercise and is a wonderful way to experience Yosemite’s winter wonderland. If you can walk, you can snowshoe, no experience is necessary for this sport.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yosemite_winter/downhill.jpg"  alt='image 1' />
+	 <h3 style="display:none">Badger Pass has been a favorite for generations of families. Unpretentious, friendly and affordable, Badger Pass ski area offers a unique and stress-free experience. Featuring one of the best sundecks in the Sierra, you can watch your children learn to ski or snowboard while enjoying the California sunshine. </h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yosemite_winter/snowboarding.jpg"  alt='image 1' />
+	 <h3 style="display:none">Yosemite's Badger Pass® in Northern California is the ideal place to learn to snowboard.  With gentle terrain and beginner lifts, up-to-date rental equipment and a Guaranteed Learn to Snowboard lesson package, this Northern California snowboarding park is a great place for families to learn to snowboard together.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yosemite_winter/skitours.jpg"  alt='image 1' />
+	 <h3 style="display:none">Yosemite Mountaineering School operates two huts in Yosemite: the Glacier Point Ski Hut and a private hut in Tuolumne Meadows. Our most popular ski tours are one- and two-night trips to the Glacier Point Ski Hut, but we also provide custom tours and some longer adventures for advanced skiers to our hut in Tuolumne Meadows – either a trans-sierra Yosemite ski tour or an out-and-back from Lee Vining to Tuolumne.</h3>
+	</div>
+</div>
+</div>
+</div>
+<div id="yosemite_fall" style="display:none">
+ 	<div id="weather_wise" class="fall fall_left"></div>
+    <div id="weather_wise" class="fall fall_right"></div>
+		<div class="fall_comment clearfix">
+    <div class="thumb_fall">
+	     <article>
+			<p class="subheading">
+		      Because most of the trees in Yosemite are evergreen, fall foliage isn't one of the main draws to the park, although the maple trees, black oaks and other deciduous trees found dotting the mountains do show off their vibrant colors around mid-October. The best reason to go to Yosemite in the fall is to take in all the breathtaking views and catch glimpses of wildlife in relative solitude—it's the time of year when the park sees the fewest visitors.
+
+			Fall is the time to hike to places like Half Dome, Glacier Point and Sentinel Rock, all of which offer stunning views. Rock climbing and biking are also great to take advantage of in the fall. It should be noted that water levels are low in the fall, so this isn't a good season for checking out the park's waterfalls, which are at a trickle this time of year, if not completely dry.
+		   </p>
+		</article>
+	</div>   
+</div>
+</div>
+
+<div id="yellowstone_winter" style="display:none">
+	<div id="weather_wise" class="snow"></div>
+	<div class="winter_container clearfix">
+	<div class="image_container clearfix">
+    <div class="thumb">
+	    <img class="thumb_decoration" src="images/yellowstone_winter/camp.jpg"  alt='image 1'/>
+		<h3 style="display:none">The park’s lowest-elevation campground at 6,200 feet, Mammoth is the only one open year-round. Sites for tents and RVs up to 75 feet are available (no hookups). The campground is located near the North Entrance and the year-round facilities at Mammoth Hot Springs.</h3>
+	</div>
+    <div class="thumb">
+	 <img class="thumb_decoration" src="images/yellowstone_winter/ski.jpg"  alt='image 1' />
+	 <h3 style="display:none">This is a fantastic place to glide through a quiet landscape on skinny skis. Trails range from easy groomed tracks to wild backcountry routes, and concessionaires run guided trips and rent equipment. Two popular trips: the Biscuit Basin Trail, which snakes through Old Faithful geyser basin, and Blacktail Plateau Trail, a challenging route on the summer Blacktail Plateau Drive.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yellowstone_winter/sleighride.jpg"  alt='image 1' />
+	 <h3 style="display:none">Up to 7,000 elk spend their winter in the National Elk Refuge, a 24,700-acre sanctuary between the town of Jackson, Wyoming and Grand Teton National Park. And when snow blankets the ground from mid-December to early April, you can see them up close from the safety of a horse-drawn sleigh.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yellowstone_winter/snowcoach.jpg"  alt='image 1' />
+	 <h3 style="display:none">With most park roads closed in the winter, the best way to see the sights (and stay warm while doing it) is a guided snowcoach tour. Several outfitters run trips out of the West, South, East, and North Entrances.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yellowstone_winter/trails.jpg"  alt='image 1' />
+	 <h3 style="display:none">Tromp through the silent forest, wind through geyser basins, and scan for winter wildlife—all it takes is a pair of snowshoes and a sense of adventure. The Yellowstone Association and other outfitters lead guided trips through the park and provide snowcoach assists to reach deep into Yellowstone.</h3>
+	</div>
+	 <div class="thumb">
+	 <img class="thumb_decoration" src="images/yellowstone_winter/wolves.jpg"  alt='image 1' />
+	 <h3 style="display:none">Winter is the best time to look for wolves at Yellowstone because snow makes these powerful predators easier to spot. The Yellowstone Association offers guided snowshoe tours with a wolf ecologist in the park’s northeastern region; trips include several nights at the Mammoth Hot Springs Hotel.</h3>
+	</div>
+</div>
+</div>
+</div>
+<div id="yellowstone_summer" style="display:none">
+	<div class="sky">
+		<div class="clouds_one"></div>
+		<div class="clouds_two"></div>
+				<svg class="svg-sun" version="1.1" preserveAspectRatio="xMinYMin meet">
+		<circle cx="50" cy="50" r="35" id="sun"></circle>
+		</svg>
+	</div>
+<div class="winter_container clearfix">
+	<div class="image_container clearfix">
+		<div class="thumb">
+			<img class="thumb_decoration" src="images/yellowstone_summer/backpacking.jpg"  alt='image 1'/>
+			<h3 style="display:none">Enjoy the backcountry of Yellowstone on a scenic backpacking trip. A bit of trip planning is required as backcountry overnight permits and proper caution regarding bears are required in the park. The summer season runs June - August and permits are available at specific locations seven days a week.</h3>
+		</div>
+		<div class="thumb">
+		 <img class="thumb_decoration" src="images/yellowstone_summer/biking.jpg"  alt='image 1' />
+		 <h3 style="display:none">The Yellowstone region is full of mountain ranges and public lands, all of which beckon mountain biking enthusiasts to take their fat tires out for a spin.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yellowstone_summer/hiking.jpg"  alt='image 1' />
+		 <h3 style="display:none">While there’s plenty to see from Yellowstone’s roads, most of the park—98 percent—is rugged, beautiful, dynamic wilderness. To explore Yellowstone’s wild side, get off the beaten path and onto the park’s 1,300-mile trail system.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yellowstone_summer/rafting.jpg"  alt='image 1' />
+		 <h3 style="display:none">Looking for an escape from the summer heat? You can’t beat a whitewater rafting adventure. You'll find Class III-IV rapids on the Gallatin, Yellowstone, Green, and Snake rivers.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yellowstone_summer/riding.jpg"  alt='image 1' />
+		 <h3 style="display:none">Guided mule rides and both pack and saddle trips are available through DNC Parks & Resorts at Yosemite from spring through fall.</h3>
+		</div>
+		 <div class="thumb">
+		 <img class="thumb_decoration" src="images/yellowstone_summer/ziplines.jpg"  alt='image 1' />
+		 <h3 style="display:none">Get a bird’s eye view of Yellowstone–from the safety of a harness–by riding a zip line in the Yellowstone area. Also ride the trams and chair lifts in Big Sky and Jackson Hole.</h3>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="aboutus" >
+           <div class="social_me">
+		  
+			<section class="span7 about-content">
+			<div class="published">
+			<ul class="sticky_notes">
+				<li class="green" onclick="javascript:location.href='https://www.facebook.com/swapna.savant'"> Me on Facebook </li>
+				<li class="orange" onclick="javascript:location.href='https://www.linkedin.com/in/swapnasavant'"> Me on LinkedIn </li>
+				<li class="red"> My Site </li>
+				<li class="blue" onclick="javascript:location.href='Resume.pdf'"> Boring Stuff .. My Resume </li>
+			</ul>
+		</div>		 
+		</section> <!-- .entry-content -->
+		</div> <!-- #content -->
+     <div id="about_sidebar" class="span4" role="complementary">
+	   <article>
+		   <h1 class="subheading">About Me</h1>
+				<h3 class="content_para" style="font-size:2em">A Software engineer.A Painter.A Hiker.</h3>
+		   <h1 class="subheading">Purpose</h1>
+				<p class="content_para">Over the course of my career , I have been fortunate to work on front-end alongwith all the rest of computer science stuff.But as I am not a freelancer, I do not have any cool portfolio to show-off . Hence I decided to transform the most visited site by me National Park Services(that's a no brainer) , into something I think might be much simple, intuituve and beautiful.Please note this is not official site of National Park Services. This is just to have some fun and try out latest UI skills.</p>
+		   <h1 class="subheading">Learn More</h1>
+				<p class="content_para"> <a class="content_para" href="http://www.nps.gov/index.htm"> This is the official page of NPS Just click on me!</a> </p>
+		</article>
+        </div>
+</div>
+
+
+	<footer id="footer" style="opacity: 1; top: 0px;" role="contentinfo">
+		<div class="gradient-white">
+			<a class="top" href="#top">back to top</a>
+		</div>
+	</footer>
+</body>
+</html>

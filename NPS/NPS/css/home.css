@@ -1,0 +1,82 @@
+
+.full-width {
+    background: #fff url("../../images/section-bg.jpg") repeat-x scroll left bottom;
+}
+.section-2 {
+    overflow: auto;
+    padding: 50px 0 0;
+}
+.section-2 h1 {
+    color: #101010;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: -20px;
+    text-align: center;
+}
+.section-2 ul {
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+.section-2 li {
+    float: left;
+    margin: 5% 2.5% 5% 2.5px;
+    text-align: center;
+    width: 22%;
+}
+.section-2 img {
+    display: block;
+    margin: 0 auto 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+.section-2 li {
+    margin: 10% 2.5% 10% 2.5px;
+    width: 46.5%;
+}
+.section-2 h1 {
+    line-height: 45px;
+}
+}
+.js .bx-wrapper .bx-viewport {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    left: 0;
+}
+.full-width {
+    width: 100%;
+}
+.centerd {
+    margin: 0 auto;
+    width: 980px;
+}
+.centerd .left-section {
+    float: left;
+    margin-right: 30px;
+    width: 622px;
+}
+.centerd .right-section {
+    border-left: 2px solid #e3e3e3;
+    float: right;
+    padding-left: 30px;
+    width: 286px;
+}
+@media only screen and (max-width: 980px) {
+.centerd {
+    margin: 0;
+    width: 100%;
+}
+.centerd .left-section {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+.centerd .right-section {
+    float: none;
+    padding: 0 10px;
+    width: 90%;
+}
+}
