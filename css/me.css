@@ -129,6 +129,9 @@ ul.unstyled, ol.unstyled {
   h1{
    font-size: 2em !important;
   }
+  html{
+   overflow-x: hidden !important;	
+  }
   .dotted {
     overflow-x: hidden !important;
 	}
@@ -140,6 +143,9 @@ ul.unstyled, ol.unstyled {
   }
   h1{
    font-size: 2em !important;
+  }
+   html{
+   overflow-x: hidden !important;	
   }
   .dotted {
     overflow-x: hidden !important;
