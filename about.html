@@ -264,6 +264,13 @@
 				 popup.css("z-index",-1);
 			}
 		});
+		$('.mydiv').on('click', function(event){
+			var popup = $('.mydiv');
+			if($(event.target).not(popup)){
+				popup.css("opacity",0);
+				 popup.css("z-index",-1);
+			}
+		});
 		$("svg").find("g").each(function(event) {			
 			$(this).click(function(event){
 			 var popup = $('.mydiv');
